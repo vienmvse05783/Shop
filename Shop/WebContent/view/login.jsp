@@ -102,14 +102,14 @@
                 </div>
 
                 <div class="col-md-5">
-                    <form id="sky-form1" class="log-reg-block sky-form">
+                    <form id="sky-form1" class="log-reg-block sky-form" action="login" method="post">
                         <h2>Log in to your account</h2>
 
                         <section>
                             <label class="input login-input">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <input type="email" placeholder="Email Address" name="email" class="form-control">
+                                    <input type="text" placeholder="User name" name="username" class="form-control">
                                 </div>
                             </label>
                         </section>        

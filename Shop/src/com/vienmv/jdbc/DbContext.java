@@ -11,7 +11,7 @@ public class DbContext {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			String user = "maivien";
 			String pass = "maivien1111";
-			String url = "jdbc:sqlserver://localhost:1433;databaseName=UPANH";
+			String url = "jdbc:sqlserver://localhost:1433;databaseName=shop";
 			connection = DriverManager.getConnection(url, user, pass);
 			System.out.println("thanh cong");
 			

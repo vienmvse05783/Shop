@@ -6,7 +6,7 @@ import com.vienmv.model.UserModel;
 
 
 public interface UserDao {
-	void insert(UserModel user);
+	boolean insert(UserModel user);
 
 	void edit(UserModel user);
 
@@ -19,4 +19,6 @@ public interface UserDao {
 	List<UserModel> getAll();
 
 	List<UserModel> search(String username);
+	public boolean checkExistUsername(String username);
+	public boolean checkExistEmail(String email);
 }

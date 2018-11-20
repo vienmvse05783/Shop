@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class UserModel implements Serializable {
 	private int id;
-	private String name;
+	private String email;
 	private String username;
 	private String password;
 	private String avatar;
@@ -12,14 +12,21 @@ public class UserModel implements Serializable {
 	public UserModel() {
 		super();
 	}
-	public UserModel(int id, String name, String username, String password, String avatar, int roleId) {
+	public UserModel(int id, String email, String username, String password, String avatar, int roleId) {
 		super();
 		this.id = id;
-		this.name = name;
+		this.email = email;
 		this.username = username;
 		this.password = password;
 		this.avatar = avatar;
 		this.roleId = roleId;
+	}
+	
+	public UserModel(String email, String username, String password) {
+		super();
+		this.email = email;
+		this.username = username;
+		this.password = password;
 	}
 	public int getId() {
 		return id;
@@ -27,11 +34,11 @@ public class UserModel implements Serializable {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getEmail() {
+		return email;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getUsername() {
 		return username;
@@ -57,5 +64,5 @@ public class UserModel implements Serializable {
 	public void setRoleId(int roleId) {
 		this.roleId = roleId;
 	}
-
+	
 }

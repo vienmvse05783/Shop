@@ -18,6 +18,8 @@ public interface UserService {
 	UserModel get(int id);
 	
 	UserModel login(String username, String password);
+	
+	boolean register(String email,String username, String password);
 
 	List<UserModel> getAll();
 
