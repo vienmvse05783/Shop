@@ -40,11 +40,10 @@
                         <ul class="list-inline right-topbar pull-right">
                             <li><a href="#">Account</a></li>
                             <li><a href="shop-ui-add-to-cart.html">Wishlist (0)</a></li>
-                            <li><a href="shop-ui-login.html">Login</a> | <a href="shop-ui-register.html">Register</a></li>
+                            <li><a href="./login">Login</a> | <a href="./register">Register</a></li>
                             <li><i class="search fa fa-search search-button"></i></li>
                         </ul>
                     </div>
                 </div>
             </div><!--/container-->
         </div>
-        <!-- End Topbar v3 -->
