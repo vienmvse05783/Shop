@@ -76,7 +76,7 @@
 					Maecenas <span class="shop-green">enim</span> sapien
 				</h1>
 				<ul class="breadcrumb-v4-in">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="../">Home</a></li>
 					<li><a href="">Product</a></li>
 					<li class="active">Log In</li>
 				</ul>
@@ -123,7 +123,7 @@
 					</div>
 
 					<div class="col-md-5">
-						<form id="sky-form4" class="log-reg-block sky-form">
+						<form id="sky-form4" class="log-reg-block sky-form" action="register" method="post">
 							<h2>Create New Account</h2>
 
 							<div class="login-input reg-input">
