@@ -1,11 +1,11 @@
-package com.vienmv.jdbc;
+package com.trungtamjava.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DbContext {
-	public static Connection getConnection() {
+public class JDBCConnection {
+	public static Connection getJDBCConnection() {
 		Connection connection = null;
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
